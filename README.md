@@ -3,6 +3,7 @@
 ### 2023-09-05
 
 ## Bellabeat smart device fitness data analysis {.tabset .tabset-fade}
+
 ### tab 1. INTRODUCTION 
 This is a part of google data analysis capstone project, in which, Bellabeat smart device fitness data is used. This data is colected originally from 33 fitbit users. As we progressing further, goes through phases of ask, prepare, prepare, process, analysis and act to succesfully answer the business questions for compleating the case study.
 
