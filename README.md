@@ -175,7 +175,6 @@ d. Hourly analysis helps to find summary of hours of different intensity activit
 e. Individual data for each hour of hourly activity, calorie consumption, step count, and sleep hours can be clearly analyzed. This helps to provide a clear understanding on daily activities and sleep hours, peak hours of each activity and low intensity hours. It is good to provide reminder of sleep hours of each day that improve the healthy lifestyle.
 
 ### 7. ACT
-#### {-}
 #### i. Recommendations
 a. Encouraging to wear the device in sleeping time, for measuring the sleep time helps to plan a balanced fitness routine. It is useful to notify users about their sleep duration. Keeping optimal fitness activity and good quality of sleep can improve the health to lead an active life.
 
