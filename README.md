@@ -1,4 +1,6 @@
 # Bellabeat smart device fitness data analysis 
+### Jenson Samuel
+### 2023-09-05
 ### Table of contents
 <ol>
   <li>INTRODUCTION</li>
