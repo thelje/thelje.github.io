@@ -4,7 +4,7 @@
 
 ## Bellabeat smart device fitness data analysis {.tabset .tabset-fade}
 
-### tab 1. INTRODUCTION 
+### tab INTRODUCTION 
 This is a part of google data analysis capstone project, in which, Bellabeat smart device fitness data is used. This data is colected originally from 33 fitbit users. As we progressing further, goes through phases of ask, prepare, prepare, process, analysis and act to succesfully answer the business questions for compleating the case study.
 
 #### i. Scenario
@@ -22,7 +22,7 @@ Bellabeat to empower women with knowledge about their own health and habits.Sinc
 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company
 for women.
 
-### tab 2. ASK
+### tab ASK
 Here junior analyst asked to analyze smart device usage data to gain insight into how
 consumers use Bellabeat smart devices. For selecting one Bellabeat product to apply these
 insights to in the presentation.
@@ -46,7 +46,7 @@ c.  Bellabeat marketing analytics team: A team of data analysts responsible for 
     team six months ago and have been busy learning about Bellabeat''s mission and business goals
     as well as how a junior data analyst, can help Bellabeat achieve them.
 
-### tab 3. PREPARE
+### tab PREPARE
 
 #### i. Data source
 open data is available for this case study analysis, data contains in  18 CSV files which are available both Long and wide formats. FitBit fitness tracker data from:- <https://www.kaggle.com/datasets/arashnic/fitbit>
@@ -61,7 +61,7 @@ Data is critically examined and thoroughly checked.Data is comes from open sourc
 #### vi. Data drawback
 Available data is 7 years old (2016), So the fitness activity pattern of users may changed over time.
 
-### tab 4.PROCESS
+### tab PROCESS
 
 Microsoft SQL Server Management Studio is used to process the data and following data sets are mainly used to analyze the data.
 #### i. Datasets selected
@@ -82,7 +82,7 @@ Checked all the chosen data tables and found three dulicate instances in sleep d
 -   A METs data for 8 people available
 -   3 duplicate entries found with the Sleep data are removed for further analysis.
 -   Due to small sample size of heart rate and METs data, it won't be able to provide meaningful insight. So those are dropped to take this analysis process.
-### tab 5. ANALYSIS
+### tab ANALYSIS
 #### i. Finding the reliabilty by checking data pattern
 ```{r 1 warning=FALSE, echo=FALSE}
 SELECT DISTINCT Id, ActivityDate,
@@ -160,7 +160,7 @@ GROUP BY Time_New ORDER BY Time_New;
 - Daily activity pattern reveals the workout sequence, timing, idle time and sleep duration
 - Individual hourly activity pattern shows most step count and intensive hours are from 8AM to 9PM. Sleep time can be identified as from 3AM to 7AM.
 
-### tab 6. SHARE
+### tab SHARE
 #### i. <a href="https://public.tableau.com/app/profile/jenson.samuel/viz/js_googledataanalysiscapstoneproject/Dashboard1#1">Sharing tableau dashboard</a>
 <img src="Dashboard.png" alt="js_google data analysis capstone project " >
 
@@ -175,7 +175,7 @@ d. Hourly analysis helps to find summary of hours of different intensity activit
 
 e. Individual data for each hour of hourly activity, calorie consumption, step count, and sleep hours can be clearly analyzed. This helps to provide a clear understanding on daily activities and sleep hours, peak hours of each activity and low intensity hours. It is good to provide reminder of sleep hours of each day that improve the healthy lifestyle.
 
-### tab 7. ACT
+### tab ACT
 
 #### i. Recommendations
 a. Encouraging to wear the device in sleeping time, for measuring the sleep time helps to plan a balanced fitness routine. It is useful to notify users about their sleep duration. Keeping optimal fitness activity and good quality of sleep can improve the health to lead an active life.
